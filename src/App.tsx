@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <h1>SPA Starter</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+      <h1 class="text-3xl font-bold underline">SPA Starter</h1>
+      <div>
+        <button class="btn btn-blue" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
